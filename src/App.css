@@ -9,6 +9,22 @@
 body{
     font-family: 'Inter', sans-serif;
 }
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #FFC71A;
+    background: #ffffff;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFC71A;
+    border-radius: 6px;
+}
+
 .container{
     width: 90%;
     margin: 0 auto;
@@ -21,4 +37,8 @@ button{
     border: none;
     cursor: pointer;
     transition: .4s;
+}
+
+html{
+    scroll-behavior: smooth;
 }
