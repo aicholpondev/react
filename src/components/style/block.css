@@ -1,0 +1,65 @@
+.general-block{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+#block .block-two{
+   padding-top: 180px;
+}
+.general-block h3{
+    height: 50px;
+    text-align: center;
+    color: #606060;
+    font-size: 14px;
+    font-weight: 800;
+    width: 176px;
+}
+.block p{
+    color: #626262;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 23px;
+    margin: 160px auto;
+    text-align: center;
+    width: 75%;
+}
+.general-slider {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+
+
+}
+.general-slider h1 {
+    font-weight: 600;
+    font-size: 24px;
+    width: 90px;
+    padding: 15px;
+}
+.general-slider h2{
+    padding-top: 40px;
+    width: 180px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+
+}
+.general-slider h3{
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+
+}
+.swipper{
+    width: 240px;
+    font-size: 18px;
+    background: #fff;
+    border: 2px solid #BCD0E5;
+    border-radius:16px ;
+
+}

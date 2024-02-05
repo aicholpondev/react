@@ -1,0 +1,42 @@
+.about-general {
+    background: url("../../assets/img/about-img.png")no-repeat center/cover;
+   height: 80vh;
+    width: 100%;
+
+}
+
+.about h1 {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+.about-general{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.about-general h2{
+    font-size: 24px;
+    font-weight: 500;
+   color: white;
+    padding: 10px 0;
+
+}
+.about-general h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    width: 180px;
+
+}
+.about p {
+    height: 128px;
+    width: 1162px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 50px 0;
+}
+
