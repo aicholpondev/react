@@ -25,20 +25,14 @@
     text-align: center;
     width: 75%;
 }
-.general-slider {
-    padding-top: 15px;
-    display: flex;
-    align-items: center;
 
-
-}
-.general-slider h1 {
+.swipper h1 {
     font-weight: 600;
     font-size: 24px;
     width: 90px;
     padding: 15px;
 }
-.general-slider h2{
+.swipper h2{
     padding-top: 40px;
     width: 180px;
     font-size: 16px;
@@ -47,19 +41,23 @@
     text-align: center;
 
 }
-.general-slider h3{
+.swipper h3{
     padding: 15px 0;
     font-size: 24px;
     font-weight: 600;
-    line-height: 29px;
+
     text-align: center;
 
 }
-.swipper{
-    width: 240px;
-    font-size: 18px;
-    background: #fff;
+.swipper center{
+  width: 90%;
     border: 2px solid #BCD0E5;
     border-radius:16px ;
-
+   box-shadow: #2c2c2c;
+}
+.swipper{
+    width: 20%;
+}
+.swipper img{
+    width: 100%;
 }

@@ -15,9 +15,12 @@ const Block = () => {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 500,
         slidesToShow: 5,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 2000,
+        autoplaySpeed: 2000,
+        cssEase: "linear"
     };
     return (
         <section id="block">
@@ -91,7 +94,7 @@ const Block = () => {
 
                             <div className="swipper">
                                 <center>
-                                    <img src={sliderFive} alt="img"/>
+                                    <img src={sliderTwo} alt="img"/>
                                     <h1>Портер</h1>
                                     <h2>У нас имеются 20 портеров</h2>
                                     <h3>500 сом/час</h3>
